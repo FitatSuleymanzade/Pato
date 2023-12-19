@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+
+    .collapseDiv {
+        a {
+            margin-left: 20px;
+            color: white;
+        }
+    }
+
+    .divIcon {
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+
+#pato {
+    background-image: url(/img/slide1-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+
+    .row {
+        margin-bottom: 30px;
+        padding: 30px;
+
+        .patosec {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+
+            h4 {
+                text-align: center;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 60px;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+                font-size: 90px;
+                font-weight: 700;
+            }
+
+            .btnDiv {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+
+                button {
+
+                    width: 150px;
+                    height: 45px;
+                    border-radius: 10px;
+                    color: red;
+                    font-size: 12px;
+
+                }
+
+
+            }
+        }
+    }
+}
+
+#italian {
+    background-color: #F1F1F1;
+
+    .row {
+        margin-bottom: 30px;
+        padding: 30px;
+
+        .italiantext {
+
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            padding: 30px;
+            padding-top: 30px;
+
+            h4 {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 600;
+                color: red;
+            }
+
+            h1 {
+                text-align: center;
+                font-weight: 700;
+                font-size: 50px;
+            }
+
+            p {
+                padding-top: 30px;
+                color: grey;
+            }
+
+            span {
+                color: grey;
+                align-items: center;
+            }
+        }
+
+        .italianimg {
+
+            img {
+
+                padding-top: 20px;
+                max-width: 100%;
+                border-radius: 20px;
+
+            }
+        }
+    }
+}
+
+
+
+
+#discover {
+    background-image: url(/img/bg-intro-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+
+    .row {
+        margin-bottom: 30px;
+        padding: 30px;
+
+        .discovertext {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            padding-top: 30px;
+
+            h4 {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 600;
+                color: red;
+            }
+
+            h1 {
+                color: white;
+                text-align: center;
+                font-weight: 700;
+                font-size: 50px;
+            }
+
+        }
+
+
+    }
+}
+
+
+
+#apisection {
+    .divbtn{
+        display: flex;
+        align-items: center;
+            justify-content:  center;
+            padding-top: 20px;
+        #btn{
+            
+            font-size: 15px;
+            background-color: red;
+            color: white;
+            font-weight: bolder;
+            padding: 10px;
+            border: none;
+            
+         }
+    }
+       
+    
+    
+    .container {
+        .row {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+
+             
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 30px;
+            
+                button {
+                    font-size: 15px;
+                    background-color: red;
+                    color: white;
+                    font-weight: bolder;
+                    padding: 10px;
+                    border: none;
+
+                    a {
+                        i {
+                            color: white;
+                        }
+
+                        i:hover {
+                            color: red;
+                        }
+                    }
+                }
+
+                button:hover {
+                    background-color: white;
+                    color: red;
+                    transition: 0.5s;
+                }
+            }
+
+
+
+
+
+            #apidiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding: 5px;
+                border-radius: 10px;
+
+                .boxDiv {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid red;
+                    border-radius: 10px;
+                    padding: 10px;
+                    text-align: center;
+
+                    .addtobasketbtn {
+                        font-size: 15px;
+                        background-color: red;
+                        color: white;
+                        border-radius: 5px;
+                        font-weight: bolder;
+                        padding: 10px;
+                        border: none;
+
+                    }
+
+                    .addtobasketbtn:hover {
+                        background-color: white;
+                        color:red;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+   
+}
+
+
+
+
+#formimp{
+    background-color: #EFEFEF;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .formsec{
+            padding: 20px;
+            
+            h4 {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 600;
+                color: red;
+            }
+
+            h1 {
+                color: rgb(0, 0, 0);
+                text-align: center;
+                font-weight: 700;
+                font-size: 50px;
+            }
+        }
+        #myFORM {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            color: white;
+            font-size: 25px;
+            font-weight: bolder;
+
+
+            #myFORM input {        
+                font-size: 20px;
+                background-color: white;
+                border: 1px solid rgb(232, 142, 232);
+                border-radius: 25px;
+            
+            
+            }
+        
+            #submit {
+                background-color:red;
+                border: none;           
+                font-size: 20px;          
+                color: #fff;            
+                cursor: pointer;            
+               
+
+            }
+        }
+        #submit:hover {
+            background-color: red;
+            color: rgb(255, 255, 255);
+        }
+    }
+    
+   .frmimg{
+    padding: 20px;
+    img{
+        max-width: 90%;
+        border-radius: 20px;
+    }
+   }
+}
